@@ -10,7 +10,6 @@ end
 
 def not_safe?(speed)
 	(speed < 40 || speed > 60) ? true : (40..60) false end
-end
 
 
 # puts (if 1 then 2 else 3 end) # => 2
